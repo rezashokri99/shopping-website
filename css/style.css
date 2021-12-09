@@ -1,0 +1,36 @@
+/* font all html */
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* color font navbar menu */
+#navbar-menu .nav-item .nav-link, .fa-user, .modal-footer , .modal-footer .fab{
+    color: white;
+}
+
+/* width dropdown-digital */
+#dropdown-digital {
+    width: 200px;
+}
+
+/* btn submit modal login */
+#btn-login {
+    background: linear-gradient(40deg,#2096ff,#05ffa3) !important;
+    width: 40%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px gray;
+}
+
+/* background color modal footer */
+#icon-modal .modal-footer{
+    background: #929fba !important;
+}
+
+
+/* responsiving carousel in md and more */
+@media (min-width:768px){
+    #carousel-header .carousel-item img{
+        height: 100vh;
+        overflow: hidden;
+    }
+}

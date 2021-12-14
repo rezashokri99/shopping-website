@@ -1,6 +1,6 @@
 /* font all html */
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* color font navbar menu */
@@ -39,4 +39,82 @@ body{
 .pro-btn {
     background: linear-gradient(87deg,#11cdef,#1171ef)!important;
     border: none;
+}
+
+/* left to right pagination*/
+nav#m-page {
+    direction: ltr;
+}
+/* border none pagination*/
+nav#m-page a{
+    border: none;
+}
+
+/* item active of pagination products */
+.page-item.active .page-link {
+    background-color: #ff2438;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #bbb;
+}
+
+/* about us titers*/
+ul#pills-tab {
+    background: linear-gradient(87deg,#11cdef,#1171ef)!important;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    width: 95%;
+    margin: auto;
+}
+
+/* change color <a> tag in titers about us */
+ul#pills-tab a{
+    color: #fff;
+}
+
+/* about us content */
+div#pills-tabContent {
+    box-shadow: 0 0 10px #bbb;
+    border-radius: 4px;
+    padding: 15px;
+    position: relative;
+    top: -42px;
+    z-index: -999;
+    padding-top: 50px;
+}
+
+/* background color titer active */
+ul#pills-tab .active {
+    background: #0060bd;
+}
+
+/* img user in card our team */
+.card-avatar {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin: -75px auto 25px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+/* img in card our team */
+.card-avatar img{
+    width: 100%;
+}
+
+/* icon social in footer */
+footer i.fab {
+    background: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #bbb;
+}
+
+/* class for header when screen scrolled  */
+.scroll,.scroll-m{
+    background: linear-gradient(40deg,#ff0098,#7700ff)!important;
+    box-shadow: 0 0 10px #888;
 }
